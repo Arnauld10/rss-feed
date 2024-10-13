@@ -9,7 +9,7 @@
     <link>https://www.example.com/</link>
     <description>Example RSS feed</description>
     <item>
-      <title>&rss</title>
+      <title>&rss;</title>
       <link>https://www.example.com/news1</link>
       <description>Description for News 1</description>
     </item>
